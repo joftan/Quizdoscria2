@@ -1,0 +1,746 @@
+
+.click{
+    background-color: rgb(0, 238, 255);
+    border: 2px solid black;
+    background-image: url();
+    background-size: cover;
+    width: 90;
+    height: 80;
+                    
+}
+.search-area{
+    background-color:rgb(20, 20, 20);
+    display: flex;
+}
+.search{
+    width: 500px;
+    height: 25px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    outline: none;
+}
+.pesquisar{
+    background-color: rgb(72, 0, 187);
+    color: rgb(0, 0, 0); 
+    border: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px black; 
+    
+}
+
+
+.titulo{
+    color: white;
+    font-family:'Roboto', sans-serif;
+    background-color:rgb(20, 20, 20);
+    padding: 20px;
+    display: flex;
+    margin: 0;
+
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.image {
+    text-align: center;
+    color: black;
+}
+.texti {
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    
+    
+}
+
+.botao{
+    width: 420px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgb(72, 0, 187);
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+}
+button{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+}
+.page2{
+    text-decoration: none;
+
+}
+
+.insta{
+    position: absolute;
+    top: 80%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+}
+
+
+/*PAGINA2------------------------------------*/
+
+
+
+.botaopag2{
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30%;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+}
+.botaopag2{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+ 
+
+}
+.botaopag22{
+    margin-top: -2.4%;
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: 30%;
+    margin-left: auto;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+    
+}
+
+
+
+.botaopag22{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+    
+    
+}
+.pergunta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.number-bar {
+    display: flex;
+    padding: 60px;
+    background-color: rgb(20, 20, 20);
+    
+
+  }
+ 
+  .number-box {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+ .number-box2{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(72, 0, 187);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+ }
+
+
+  
+
+/* animação */
+
+  .botaopag2{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag2:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  
+/*---------------*/
+  .botaopag22{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag22:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+  
+
+
+  /*PAGINA3-------------------------------------------*/
+
+
+  .botaopag3{
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30%;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+}
+.botaopag3{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+ 
+
+}
+.botaopag33{
+    margin-top: -2.4%;
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: 30%;
+    margin-left: auto;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+    
+}
+
+
+
+.botaopag33{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+    
+    
+}
+.pergunta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.number-bar3 {
+    display: flex;
+    padding: 60px;
+    background-color: rgb(20, 20, 20);
+    
+
+  }
+
+  .number-box {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .number-box3{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(72, 0, 187);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+ }
+
+
+  
+
+/* animação */
+
+  .botaopag3{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag3:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  
+/*---------------*/
+  .botaopag33{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag33:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  /* PAGINA4-----------------------------------*/
+
+
+  .botaopag4{
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30%;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+}
+.botaopag4{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+ 
+
+}
+.botaopag44{
+    margin-top: -2.4%;
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: 30%;
+    margin-left: auto;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+    
+}
+
+
+
+.botaopag44{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+    
+    
+}
+.pergunta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.number-bar4 {
+    display: flex;
+    padding: 60px;
+    background-color: rgb(20, 20, 20);
+    
+
+  }
+
+  .number-box {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .number-box4{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(72, 0, 187);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+ }
+
+  
+
+/* animação */
+
+  .botaopag4{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag4:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  
+/*---------------*/
+  .botaopag44{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag44:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+/* PAGINA5------------------------------------------------*/
+
+.botaopag5{
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30%;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+}
+.botaopag5{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+ 
+
+}
+.botaopag55{
+    margin-top: -2.4%;
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: 30%;
+    margin-left: auto;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+    
+}
+
+
+
+.botaopag55{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+    
+    
+}
+.pergunta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.number-bar5 {
+    display: flex;
+    padding: 60px;
+    background-color: rgb(20, 20, 20);
+    
+
+  }
+
+  .number-box {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .number-box5{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(72, 0, 187);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+ }
+
+  
+
+/* animação */
+
+  .botaopag5{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag5:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  
+/*---------------*/
+  .botaopag55{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag55:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+/*PAGINA6--------------------------------------*/
+
+
+
+
+.botaopag6{
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin-right: auto;
+    margin-left: 30%;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+}
+.botaopag6{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+ 
+
+}
+.botaopag66{
+    margin-top: -2.4%;
+    width: 260px;
+    height: 35px;
+    display: block;
+    margin-right: 30%;
+    margin-left: auto;
+    border: none;
+    font-family:'Roboto', sans-serif;
+    cursor:pointer
+    
+    
+}
+
+
+
+.botaopag66{
+    box-shadow: 4px 4px 0px black; 
+    font-size: 20;
+    
+    
+}
+.pergunta{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.number-bar6 {
+    display: flex;
+    padding: 60px;
+    background-color: rgb(20, 20, 20);
+    
+
+  }
+
+  .number-box {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+  }
+  .number-box5{
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(72, 0, 187);
+    border: 1px solid #999999;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+
+ }
+
+  
+
+/* animação */
+
+  .botaopag6{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag6:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+  
+/*---------------*/
+  .botaopag66{
+    background-color: rgb(219, 219, 219);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+  .botaopag66:hover {
+    background-color:rgb(72, 0, 187);
+    color: white;
+    transform: translateY(-5px); 
+  }
+
+
+
+/*PAGINA7-----------------------------------*/
+
+.bolso{
+    display: flex;
+    justify-content: center;
+}
+
+.texto-final{
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 15px;
+
+}
+.voce{
+  font-family: 'Roboto', sans-serif;
+}
